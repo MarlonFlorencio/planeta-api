@@ -1,4 +1,4 @@
-# Aplicação RESTFul API em Node.Js com TypeScript, Restify e Jest
+# RESTFul API em Node.Js com TypeScript, Restify e Jest
 
 ## Recursos utilizados no desenvolvimento:
 
@@ -57,35 +57,36 @@ Com o código pronto, executar o **nodemon** ou o **node**.
 nodemon dist/main.js
 ```
 
-
 ### Acessando os endpoint
 
-* **Buscar todos os planetas**: 
+* **Buscar todos os planetas:** 
 ```
 ( GET ) http://localhost:3000/planetas
 ```
 
-* **Buscar um planeta pelo nome**: 
+* **Buscar um planeta pelo nome:** 
 ```
 ( GET ) http://localhost:3000/planetas?-nome=Exemplo
 ```
 
-* **Buscar um planeta pelo id**:  
+* **Buscar um planeta pelo id:** 
 ```
 ( GET ) http://localhost:3000/planetas/:id
 ```
 
-* **Deletar um planeta**:
+* **Deletar um planeta:** 
 ```
 ( DELETE ) http://localhost:3000/planetas/:id
 ```
 
-* **Incluir um novo planeta: 
+* **Incluir um novo planeta:** 
 ```
 ( POST ) http://localhost:3000/planetas
 
 PAYLOAD 
 {
-
+	"nome":"Alderaan",
+	"clima": "Temperado",
+    "terreno": "Montanhoso"
 }
 ```
