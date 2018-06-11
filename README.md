@@ -66,7 +66,7 @@ nodemon dist/main.js
 
 * **Buscar um planeta pelo nome:** 
 ```
-( GET ) http://localhost:3000/planetas?-nome=Exemplo
+( GET ) http://localhost:3000/planetas?nome=Exemplo
 ```
 
 * **Buscar um planeta pelo id:** 
@@ -87,6 +87,6 @@ PAYLOAD
 {
 	"nome":"Alderaan",
 	"clima": "Temperado",
-    "terreno": "Montanhoso"
+	"terreno": "Montanhoso"
 }
 ```
