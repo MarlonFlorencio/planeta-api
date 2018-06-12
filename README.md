@@ -83,7 +83,7 @@ nodemon dist/main.js
 ```
 ( POST ) http://localhost:3000/planetas
 
-PAYLOAD 
+PAYLOAD (application/json)
 {
 	"nome":"Alderaan",
 	"clima": "Temperado",
